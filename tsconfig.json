@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "preserve",
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "Node",
+      "skipLibCheck": true,
+      "strict": true,
+      "allowJs": true,
+      "noEmit": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "types": [
+        "node"
+      ],
+      "baseUrl": "..",
+      "paths": {
+        "~": [
+          "."
+        ],
+        "~/*": [
+          "./*"
+        ],
+      }
+    },
+    "include": [
+      "../**/*",
+      "../../**/*"
+    ],
+  }

@@ -1,0 +1,22 @@
+{
+    "name": "wbtc",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "./main.ts",
+    "scripts": {
+        "start": "tsx ./main.ts"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "eosjs": "^22.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.8",
+        "consola": "3.1.0",
+        "tsx": "^3.12.6",
+        "typescript": "^5.0.4"
+    },
+    "engines": {
+        "node": "18.x || 20.x"
+    }
+}
